@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1954487631284700}
+  m_IsPrefabAsset: 1
+--- !u!1 &1954487631284700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4515607459633864}
+  - component: {fileID: 114117706983202576}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4515607459633864
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954487631284700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.47632393, y: 1.8898814, z: -0.100842714}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114117706983202576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1954487631284700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c5634ea87b20334aa0625e8f25bc63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalHeight: 1024
+  originalWidth: 600
+  wallWidth: 10
+  wallRadius: 0.2
+  pinBallPxSizeX: 50
+  pinBallPxSizeY: 50
+  pinBallStartPosX: -2
+  pinBallStartPosY: 0
+  pinBallMaxSpeed: 10
+  bouncyPxSizeX: 450
+  bouncyPxSizeY: 40
+  bouncyWidth: 3
+  bouncyHeight: -3
+  bouncyRotation: 20
+  coinPxSizeX: 35
+  coinPxSizeY: 35
+  coinStartPosX: -2.7
+  coinStartPosY: -1.7
+  coinFinishPosX: 2.7
+  coinFinishPosY: 3.7
+  bounceRight: {fileID: 1707911187025270, guid: cb374454750645a44b89cdd1946dce49,
+    type: 2}
+  bounceLeft: {fileID: 1946529029702048, guid: 6882860315b93d74981eb7776830d6e9, type: 2}
+  backgroundSprites:
+  - {fileID: 21300000, guid: a19a7b910d209f447bc114e12dfa8886, type: 3}
+  - {fileID: 21300000, guid: 7de6f400799380141bc6e16c52870fca, type: 3}
+  backgroundID: 1
+  pinballSprites:
+  - {fileID: 21300000, guid: 9496a3fa38d842342988009bc5d50def, type: 3}
+  pinballID: 0
+  bouncySprites:
+  - {fileID: 21300000, guid: 9496a3fa38d842342988009bc5d50def, type: 3}
+  - {fileID: 21300000, guid: 19e8c5a7071e8d1449a0acc2d54d86ee, type: 3}
+  bouncyID: 1
+  standart: {fileID: 21300000, guid: 876b8defdaea16c46936ad1ce23f428c, type: 3}
+  pinBallMaterial: {fileID: 6200000, guid: 22b55ab871b2af84b8bd492b52c72eed, type: 2}
+  coinID: 0
+  coinSprites:
+  - sprites:
+    - {fileID: 21300000, guid: 8555cdfbac8b19d419dd79a014da7ed9, type: 3}
+    - {fileID: 21300000, guid: c3deec064f6df8c408d56833fa014a02, type: 3}
+    - {fileID: 21300000, guid: bc6b79d71dd536b479d431f96aaf470f, type: 3}
+    - {fileID: 21300000, guid: c073d11c4f9642d48956738ba91ade19, type: 3}
+    - {fileID: 21300000, guid: e0e6d9bd6e87e2740ac7111bb5f44022, type: 3}
+    - {fileID: 21300000, guid: 532432b75a3ef4548a92d8018ff417f1, type: 3}
+    - {fileID: 21300000, guid: 605bbb637c3951e479ed6c8024ec287e, type: 3}
+    - {fileID: 21300000, guid: 31b27d0a251cdac419851bd7aba4adf8, type: 3}
+    - {fileID: 21300000, guid: dec5ad71a26e33a49989a17c4881843e, type: 3}
+    - {fileID: 21300000, guid: 87d8bbaf5adc9244a8dbca6f8cf41617, type: 3}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - sprites:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  score: 0
+  highscore: 0
+  coinSpawnInterval: 2

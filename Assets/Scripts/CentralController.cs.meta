@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c5634ea87b20334aa0625e8f25bc63d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bounceRight: {instanceID: 0}
+  - bounceLeft: {instanceID: 0}
+  - standart: {instanceID: 0}
+  - pinBallMaterial: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

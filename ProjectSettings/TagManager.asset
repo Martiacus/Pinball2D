@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - 1coin
+  - 2coin
+  - 3coin
+  - 4coin
+  - 5coin
+  - 6coin
+  - 7coin
+  - 8coin
+  - 9coin
+  - 10coin
+  - BouncyButtons
+  - ShopScreen
+  - MainScreen
+  - BackToMainScreen
+  - MenuScreen
+  - Save
+  - Highlight
+  - YesOrNoCanvas
+  - AdsCanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
